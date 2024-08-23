@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Banking Dashboard</title>
-    </head>
-    <body>
-        <h2>Dashboard</h2>
-    </body>
+
+<head>
+    <title>Banking Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dashboard</h2>
+        <div id="balance">
+            <h2>Current Balance: $<span id="balance-section">1000</span></h2>
+        </div>
+        <div class="transactions">
+            <h3>Deposit Amount: </h3>
+            <input type="number" id="deposit" placeholder="Enter amount to deposit">
+            <button onclick="deposit()">Deposit</button>
+        </div>
+        <div class="transactions">
+            <h3>Withdrawal Amount: </h3>
+            <input type="number" id="withdraw" placeholder="Enter amount to withdraw">
+            <button onclick="withdraw()">Withdraw</button>
+        </div>
+    </div>
+</body>
+
 </html>
