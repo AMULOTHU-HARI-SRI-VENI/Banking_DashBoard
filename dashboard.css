@@ -22,13 +22,13 @@ h1 {
     margin-bottom: 30px;
 }
 
-.balance-section {
+.balance {
     margin-bottom: 20px;
 }
 
-.balance-section h2 {
+.balance h2 {
     font-size: 24px;
-    color: #333;
+    color: #080808;
 }
 
 .transactions {
