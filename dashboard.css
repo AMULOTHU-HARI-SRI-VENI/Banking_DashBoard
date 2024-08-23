@@ -1,34 +1,43 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #F7BEC0;
+    background-image: url("banking.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 }
 
 .container {
-    background-color:#E9EAE0;
-    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px;
     text-align: center;
+    z-index: 1; 
+    position: absolute;
+    top: 50%;
+    right: 15%; 
+    transform: translateY(-50%);
 }
 
 h1 {
     margin-bottom: 30px;
 }
 
-.balance {
-    margin-bottom: 20px;
-}
-
-.balance h2 {
+h2 {
     font-size: 24px;
     color: #080808;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
 .transactions {
@@ -54,5 +63,5 @@ button {
 }
 
 button:hover {
-    background-color:#E7625F;
+    background-color: #E7625F;
 }
