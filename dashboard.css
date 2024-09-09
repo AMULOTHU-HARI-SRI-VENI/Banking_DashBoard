@@ -11,20 +11,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.8); 
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    width: 450px;
     text-align: center;
-    z-index: 1; 
+    z-index: 1;
     position: absolute;
     top: 50%;
-    right: 15%; 
+    right: 15%;
     transform: translateY(-50%);
 }
 
@@ -64,4 +64,21 @@ button {
 
 button:hover {
     background-color: #E7625F;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(19, 18, 18);
+}
+
+footer a {
+    color: #131212;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
